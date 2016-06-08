@@ -11,6 +11,7 @@ module.exports = {
   entry: [
     './app/index.js'
   ],
+  devtool: 'source-map',
   output: {
     path      :     __dirname + '/dist',
     filename  : 'index_bundle.js'
