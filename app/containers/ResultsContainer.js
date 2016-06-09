@@ -4,7 +4,7 @@ var PropTypes = React.PropTypes;
 var Results =  require('../components/Results');
 var githubHelpers = require('../utils/githubHelpers.js');
 
-var  = React.createClass({
+var ResultsContainer  = React.createClass({
   getInitialState: function () {
     return{
       isLoading: true,
@@ -28,4 +28,4 @@ var  = React.createClass({
 
 });
 
-module.exports = ;
+module.exports = ResultsContainer;
